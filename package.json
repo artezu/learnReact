@@ -4,6 +4,10 @@
   "description": "homework #15",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p",
+    "server": "webpack-dev-server",
+    "config": "webpack --config",
+    "help": "webpack --help",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +20,10 @@
     "url": "https://github.com/artezu/learnReact/issues"
   },
   "homepage": "https://github.com/artezu/learnReact#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
