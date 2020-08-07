@@ -1,0 +1,44 @@
+html, body{
+    background-color: #ffeeff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comments{
+    background-color: #dddddd;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    padding: 10px 0;
+    list-style: none;
+}
+.comments__item{
+    background-color: #eeeeee;
+    margin: 3px 0;
+    padding: 0 10px 5px;
+}
+.comments__item-del{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.comments__item p{
+    margin: 10px 0 0 10px;
+}
+.comments__item p > pre{
+    font-family: inherit;
+    margin: 0;
+}
+.comments__item span{
+    font-size: 0.9em;
+    font-style: italic;
+}
+.add-comment{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.add-comment *{
+    margin-bottom: 5px;
+}
+.add-comment textarea{
+    height: 100px;
+}
+
